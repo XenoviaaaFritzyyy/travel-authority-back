@@ -11,8 +11,8 @@ import { Notification } from '@entities/notification.entity';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'password',
-      database: 'teacher_management',
+      password: '20031975', //change password according sa sql
+      database: 'travelauthority',
       entities: [User, TravelRequest, Notification],
       synchronize: true, // For dev purposes only. Disable in production.
     }),
